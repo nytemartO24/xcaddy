@@ -29,7 +29,7 @@ import (
 	"time"
 
 	"github.com/Masterminds/semver/v3"
-	"github.com/nyemartO24/xcaddy/internal/utils"
+	"github.com/nytemartO24/xcaddy/internal/utils"
 )
 
 // Builder can produce a custom Caddy build with the
