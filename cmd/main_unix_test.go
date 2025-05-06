@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/caddyserver/xcaddy"
+	"github.com/nytemartO24/xcaddy"
 )
 
 func TestParseGoListJson(t *testing.T) {
