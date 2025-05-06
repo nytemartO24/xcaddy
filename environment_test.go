@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/caddyserver/xcaddy/internal/utils"
+	"github.com/nytemartO24/xcaddy/internal/utils"
 )
 
 func Test_environment_newGoBuildCommand(t *testing.T) {
