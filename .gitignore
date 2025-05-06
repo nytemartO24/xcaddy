@@ -12,7 +12,3 @@ cmd/xcaddy/caddy.exe
 
 # goreleaser artifacts
 dist/
-
-# jb
-.idea
-.fleet
