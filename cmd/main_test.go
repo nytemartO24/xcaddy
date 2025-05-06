@@ -108,24 +108,24 @@ func TestNormalizeImportPath(t *testing.T) {
 
 	tests := testCaseType{
 		{"linux-path", args{
-			currentModule: "github.com/caddyserver/xcaddy",
+			currentModule: "github.com/nytemartO24/xcaddy",
 			cwd:           "/xcaddy",
 			moduleDir:     "/xcaddy",
 		}, "github.com/caddyserver/xcaddy"},
 		{"linux-subpath", args{
-			currentModule: "github.com/caddyserver/xcaddy",
+			currentModule: "github.com/nytemartO24/xcaddy",
 			cwd:           "/xcaddy/subdir",
 			moduleDir:     "/xcaddy",
 		}, "github.com/caddyserver/xcaddy/subdir"},
 	}
 	windowsTests := testCaseType{
 		{"windows-path", args{
-			currentModule: "github.com/caddyserver/xcaddy",
+			currentModule: "github.com/nytemartO24/xcaddy",
 			cwd:           "c:\\xcaddy",
 			moduleDir:     "c:\\xcaddy",
 		}, "github.com/caddyserver/xcaddy"},
 		{"windows-subpath", args{
-			currentModule: "github.com/caddyserver/xcaddy",
+			currentModule: "github.com/nytemartO24/xcaddy",
 			cwd:           "c:\\xcaddy\\subdir",
 			moduleDir:     "c:\\xcaddy",
 		}, "github.com/caddyserver/xcaddy/subdir"},
