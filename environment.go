@@ -207,7 +207,7 @@ nextPlugin:
 		// foo/a/plugin is within module foo/a
 		// *or* a lexical submodule, and in either case tagged versions should be checked.
 		for repl := range replaced {
-			if strings.HasPrefix(p.PackagePath, repl+"/") {
+			if strings.HasPrefix(p.PackagePath, repl) {
 				continue nextPlugin
 			}
 		}
